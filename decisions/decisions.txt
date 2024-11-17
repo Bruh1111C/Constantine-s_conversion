@@ -1,0 +1,45 @@
+decisions = {
+
+Proclaim_Christianity_the_state_religion = {
+
+only_independent = yes
+		only_playable = yes
+		is_high_prio = yes
+		
+		potential = {
+			
+			independent = yes
+			higher_real_tier_than = DUKE
+			religion_group = christian
+			 NOT = { has_character_flag = my_event_happened }
+			}
+			
+			allow = {
+			piety = 1500
+			prestige = 1000
+			}
+			
+			effect = {
+			any_demesne_title = { 
+					show_scope_change = no
+					limit = { higher_tier_than = COUNT }
+					add_law = {
+						law = revoke_title_law_2
+						cooldown = no
+						opinion_effect = no
+					}
+					}
+			
+			add_trait = zealous		
+			set_character_flag = my_event_happened	
+				give_nickname = nick_the_great
+				any_dynasty_member = { 
+
+					religion = ROOT 
+
+				}
+					}
+					
+					}
+					}
+					#is_playable = yes,only_playable = yesai_check_interval = 36

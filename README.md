@@ -1,0 +1,1 @@
+This mod is mostly for Mega campaigns (however could be used with say "ancient religions reborn" if you want) as a way to have a europe and middle east not completely dominated by hellenic paganism. The mod adds a couple events and a decision to make christianity the state religion.
